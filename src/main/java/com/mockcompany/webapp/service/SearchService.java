@@ -8,7 +8,9 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-
+public Collection<ProductItem> searchProducts(String query) {
+    return Collections.emptyList(); // This will break tests
+}
 @Service
 public class SearchService {
 
